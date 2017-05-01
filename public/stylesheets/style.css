@@ -1,0 +1,150 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.blog-header {
+  background-color: black;
+  color: white;
+  font-style: helvetica;
+}
+
+hr {
+  border: 1px solid darkgrey;
+  /*color:black;
+  background-color: black;*/
+}
+
+
+
+
+
+#overriding {
+  color: white;
+}
+
+/*.box {
+  border: 1px red solid;
+}*/
+
+/*.container {
+  max-width: 1000px;
+}*/
+
+.gblog {
+  max-width: 40%;
+  object-fit: contain;
+  margin-top: 25px;
+}
+.profile {
+  margin-right:30px;
+}
+
+.profile aside ul li{
+  float: left;
+  margin-right: 5px;
+  list-style: none;
+}
+      /*styles added ao 3/28/17 to index*/
+
+.navbar {
+  background-color: black;
+  border-radius: 0px;
+  border-color: grey;
+
+}
+
+/*overriding default BS settings*/
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+/*bootstrap override*/
+.jumbotron {
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -20px;
+  background-image:url('../img/WPpredawn.jpeg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:80%;
+}
+
+.title {
+  font-family: 'Catamaran', sans-serif;
+  color:white;
+  font-style: italic;
+}
+.positioning {
+  padding-top: 75px;
+}
+.positioning h1 {
+  font-size: 50px;
+}
+
+.my-footer {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-top: 15px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  width: 100%;
+}
+
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: orange;
+}
+
+.read-more {
+  color: orange;
+}
+
+.bold {
+  font-weight: bold;
+}
+.lighter {
+  font-weight:100;
+}
+.time{
+  color:grey;
+}
+
+.btn-warning {
+  color:inherit;
+  text-decoration: none;
+}
+
+/*new blog post*/
+.newPost{
+  background-image:url(../img/RMNP.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity: 50%;
+
+  margin-top: -20px;
+}
+
+.postTitle {
+  margin-left: -10px;
+}
+.postPosition{
+  padding-right: 25px;
+}
+.toprow {
+  padding-top: 50px;
+}

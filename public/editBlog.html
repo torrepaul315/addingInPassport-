@@ -1,0 +1,96 @@
+<!DOCTYPE= html>
+<html>
+  <head lang='en'>
+    <meta charset='utf-8'>
+    <title>gBlog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='stylesheets/style.css'>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">gBlog!</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li id="overriding">
+                <a href="createBlog.html">
+                  Make a post
+                <!-- <span class="sr-only">(current)
+                </span> -->
+                </a>
+              </li>
+            </ul>
+            <!-- leaving this for now may want to add features/functionality -->
+            <ul class="nav navbar-nav navbar-right">
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <main>
+      <div class="container-fluid newPost toprow">
+        <div class="col-md-2"></div>
+          <div class="row">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="title" class="col-sm-1 control-label
+            postPosition">Title</label>
+            <div class="col-sm-6">
+              <input type="movie-title" class="form-control title-edit postTitle">
+            </div>
+          </div>
+        <div class="col-md-2"></div>
+          <div class="form-group">
+            <label for="director" class="col-sm-1 control-label">Author</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control author-edit">
+            </div>
+          </div>
+        <div class="col-md-2"></div>
+          <div class="form-group">
+            <label for="director" class="col-sm-1 control-label">Email</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control email-edit">
+            </div>
+          </div>
+        <div class="col-md-2"></div>
+          <div class="form-group">
+            <label for="year" class="col-sm-1 control-label">BlogPost</label>
+            <div class="col-sm-6">
+              <textarea class="form-control body-edit" rows="16">
+              </textarea>
+
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="row text-center">
+
+        <button type="button" class="btn btn-primary submit">Submit</button>
+      </div>
+    </div>
+  <footer class="my-footer text-center navbar-fixed-bottom">
+    © 2017 Snowflake Blog - Paul Torres - Denver, CO
+  </footer>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src='javascripts/editBlog.js'></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE= html>
+<html>
+  <head lang='en'>
+    <meta charset='utf-8'>
+    <title>gBlog</title>
+    <!-- Linking in Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Linking in my stylesheet -->
+    <link rel='stylesheet' type='text/css' href='stylesheets/style.css'>
+    <!-- Linking in Font for Title -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:300" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">gBlog!</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li id="overriding">
+                <a href="login.html">
+                  wtf mate!
+                <!-- <span class="sr-only">(current)
+                </span> -->
+                </a>
+              </li>
+            </ul>
+            <!-- leaving this for now may want to add features/functionality -->
+            <ul class="nav navbar-nav navbar-right">
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <div class="jumbotron background-image">
+
+        <div class='text-center title'>
+         <div class='positioning'>
+          <h1>did this change</h1>
+          <hr class="small">
+          <p>A Blog by Snowflakes for Snowflakes</p>
+          <a href="login.html">
+          <button type="button" class="btn btn-warning">submit a post!
+          </button></a>
+        </div>
+        </div>
+
+
+    </div>
+    <div class="container box">
+      <div class="row box">
+
+        <div class='col-md-3 col-sm-6 box col-xs-12 profile'>
+          <aside>
+          <!--img dnw, figure out how to get the gblog logo up on the site!-->
+            <img class="gblog" src='img/gblog.png'>
+            <h2>Paul's version of gBlog!</h2>
+            <ul>
+              <li><img src="img/SMIcons/Facebook_social_media_logo.png"></li>
+              <li><img src="img/SMIcons/Instagram_social_media_logo.png"></li>
+              <li><img src="img/SMIcons/Twitter_social_media_logo.png"></li>
+            </ul>
+
+          </aside>
+        </div>
+        <div class='col-md-8 col-sm-6 box col-xs-12 bloglist'>
+
+        </div>
+
+      </div>
+      <!-- keep plugging at this lil boondoggle- are the sm icons simply bootstrap classes or something? -->
+      <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+    </div>
+    <footer class="my-footer text-center">
+      © 2017 Snowflake Blog - Paul Torres - Denver, CO
+    </footer>
+
+
+
+
+
+
+    <!-- linking in jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <!-- my Javascript file -->
+    <script src='javascripts/home.js'></script>
+
+  </body>
+
+</html>
