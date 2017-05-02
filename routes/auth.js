@@ -25,7 +25,7 @@ router.use(passport.session());
 //setting the scene....'auto-handling' the state param
 passport.use(new LinkedInStrategy({
   consumerKey: '78t05pvtjrr6xg',
-  consumerSec,
+  consumerSecret: 'zkNylUwBwBXROCAD',
   callbackURL: "http://localhost:5280/auth/linkedin/callback",
   scope: ['r_emailaddress', 'r_basicprofile'],
   state: true

@@ -53,7 +53,27 @@ $('.f-login').on('click', function (e){
 });
 
 
+// Setup an event listener to make an API call once auth is complete
+    function onLinkedInLoad() {
+      console.log('something happened')
+        IN.Event.on(IN, "auth", getProfileData);
+    }
 
+    // Handle the successful return from the API call
+    function onSuccess(data) {
+        console.log('yay!',data);
+    }
+
+    // Handle an error response from the API call
+    function onError(error) {
+        console.log('oh no!', error);
+    }
+
+    // Use the API call wrapper to request the member's basic profile data
+    function getProfileData() {
+      console.log('something else happened')
+        IN.API.Raw("/people/~").result(onSuccess).error(onError);
+    }
 
 
 
